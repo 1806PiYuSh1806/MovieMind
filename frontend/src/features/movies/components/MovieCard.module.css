@@ -1,0 +1,7 @@
+.card { composes: card from "../../../styles/index.css"; }
+.thumb { aspect-ratio: 2 / 3; width: 100%; object-fit: cover; }
+.meta { padding: 10px 12px; display: grid; gap: 6px; }
+.row { display:flex; align-items:center; justify-content:space-between; gap: 8px; }
+.title { font-weight: 600; font-size: .98rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.year { color: var(--muted); font-size: .85rem; }
+.rating { font-size: .85rem; padding: 2px 8px; border-radius: 999px; background: #1a1f2d; border: 1px solid #26304a; }

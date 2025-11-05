@@ -1,0 +1,2 @@
+.form { display:flex; gap: 8px; }
+.input { composes: input from "../../styles/index.css"; }

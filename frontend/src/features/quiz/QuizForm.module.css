@@ -1,0 +1,10 @@
+.form { display: grid; gap: 16px; }
+.card { border: 1px solid var(--border); background: var(--surface); border-radius: var(--radius); padding: 16px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  border: 1px solid var(--border); background: #1a1a20; color: var(--text);
+  border-radius: 999px; padding: 6px 10px; cursor: pointer; user-select: none;
+}
+.chipActive { background: var(--brand); border-color: color-mix(in srgb, var(--brand) 60%, white); color: #fff; }
+.actions { display:flex; gap: 8px; justify-content: flex-end; }
+.help { color: var(--muted); font-size: .9rem; }

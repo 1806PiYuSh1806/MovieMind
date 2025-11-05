@@ -1,0 +1,4 @@
+.searchWrap { width: 100%; max-width: 520px; }
+.nav { display: flex; gap: 10px; }
+.nav a { color: var(--muted); text-decoration: none; padding: 8px 10px; border-radius: 10px; }
+.nav a.active, .nav a:hover { color: var(--text); background: #1a1a20; }

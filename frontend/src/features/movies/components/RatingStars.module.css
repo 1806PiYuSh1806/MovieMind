@@ -1,0 +1,3 @@
+.wrap { display:flex; gap: 4px; }
+.star { width: 18px; height: 18px; fill: #ffd166; filter: drop-shadow(0 1px 0 rgba(0,0,0,.2)); }
+.dim  { opacity: .35; }
